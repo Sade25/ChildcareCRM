@@ -1,0 +1,64 @@
+/* homepage.css */
+
+
+.homepage {
+  width: 60%;
+  text-align: center;
+  margin: 0 auto;
+}
+
+.category-container {
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  margin: 0 auto;
+}
+
+.category-box {
+  border: 2px solid black;
+  margin: 10px;
+  padding: 20px;
+  text-align: center;
+  flex: 1; /* This will make the boxes flexible in size but respect the min and max widths */
+  min-width: 250px; /* Adjust the min-width as necessary */
+  max-width: calc(50% - 20px); /* Adjust max-width for spacing between boxes */
+}
+
+.total-style {
+  text-align: center;
+  margin-top: 20px;
+  font-size: 30px;
+  color: orange;
+}
+
+.category-number {
+  font-size: 24px;
+  color: orange;
+}
+
+.enroll-button-container {
+  display: flex;
+  align-items: center;
+  padding: 10px;
+  margin: 10px;
+}
+
+.enroll-button {
+  background-color: #4CAF50; /* Green background */
+  border: none;
+  color: white;
+  padding: 10px 20px;
+  text-align: center;
+  text-decoration: none;
+  font-size: 16px;
+  cursor: pointer;
+  width: 100%;
+  margin: 0 auto;
+}
+
+/* Media query to handle layout on smaller screens */
+@media (max-width: 768px) {
+  .category-box, .enroll-button-container {
+    max-width: 100%;
+  }
+}
