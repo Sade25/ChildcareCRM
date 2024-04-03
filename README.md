@@ -1,12 +1,13 @@
 # TODO:
-1) setup DB for child enrollment data
+
+1. setup DB for child enrollment data
    - This is the data when you click "Enroll Child" on the home page
    - checkout src/components/ChildEnrollmentForm
-   - Add a "data completed" attribute to the form in the database
+   - Add a "date completed" attribute to the form in the database
    - Make Key fields required, such as first/last name, address, phone number, ... etc. You can decide this
    - Email and text a reminder to the parent 30 days before one year has elapsed from the time the enrollment form was completed
-     
-2) Adjust home page data to be dynamic
+   - adjust the styling of the enrollment form so that each page is consistent as you progess through the form (ie the same styling for all pages)
+2. Adjust home page data to be dynamic
    - Current (Infant, Toddler, Preschool, and School Age) counts are hard coded
    - You determine this based on the database using the children ages
    - infants = birth to 18 months
@@ -15,27 +16,25 @@
    - school age = 5 years +
    - Add a "Reminders" box at the top left, that we will enventually contain reminders but can be blank for now. It should be scrollable as there might be many reminders
    - Style the page and use similar styling on other pages
-   
-3) Children tab on the navbar should list all the children
+3. Children tab on the navbar should list all the children
    - They should be grouped by (Infant, Toddler, Preschool, and School Age)
    - You should list key details about each child, like their First/Last name, Age, Parent
    - Clicking on any child should send you to a summary page containing their enrollemnt form data
-     
-4) Parent tab on the navbar should list all the parents
+4. Parent tab on the navbar should list all the parents
+
    - You can decide what to present on this page. I'm guessing we should list the kids under each parent?
 
-5) Complete the "Daycare Center" tab on the navbar
+5. Complete the "Daycare Center" tab on the navbar
+
    - This page should just contain all reminders
-  
-6) Have a login system
+
+6. Have a login system
    - There should be two views (Admin and Parent)
    - Admin should be similar to the current view
    - Parent view should contain the following
-       * View all their kids
-       * Have the ability to enroll a child
-       * View the daycare centers email and phone
-         
-   
+     - View all their kids
+     - Have the ability to enroll a child
+     - View the daycare centers email and phone
 
 ## Available Scripts
 

@@ -18,15 +18,21 @@ function HomePage() {
       </div>
       <div className="category-container">
         <div className="category-box">
+          <h2>Preschool</h2>
+          <p className="category-number">20</p>
+        </div>
+        <div className="category-box">
           <h2>School Age</h2>
           <p className="category-number">15</p>
         </div>
-        <div className="enroll-button-container">
+
+        
+      </div>
+      <div className="enroll-button-container">
           <Link to="/enroll" className="enroll-button">Enroll Child</Link>
         </div>
-      </div>
       <div className="total-style">
-        Total: 55
+        Total: 75
       </div>
     </div>
   );

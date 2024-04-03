@@ -8,7 +8,7 @@ import { getFirestore, collection, addDoc } from 'firebase/firestore';
 // Your web app's Firebase configuration
 // For Firebase JS SDK v7.20.0 and later, measurementId is optional
 const firebaseConfig = {
-  apiKey: "AIzaSyB8kOTtGzqPbm9Qz75WubFieOjmSXoLhq8",
+  apiKey: "",
   authDomain: "childcare-crm.firebaseapp.com",
   projectId: "childcare-crm",
   storageBucket: "childcare-crm.appspot.com",
